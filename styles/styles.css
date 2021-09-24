@@ -134,7 +134,7 @@ h4 {
   margin: 0;
 }
 
-.wrapp {
+.contenido {
   display: flex;
   flex-direction: column;
   width: 636px;
@@ -144,7 +144,7 @@ h4 {
 
 .curso-info {
   width: 636px;
-  height: 262px;
+  height: 362px;
   margin-top: 0;
 }
 
@@ -167,8 +167,8 @@ hr {
 }
 
 .testimonio {
-  width: 636px;
-  height: 128px;
+  width: 436px;
+  height: 108px;
   padding: 24px;
   padding-right: 17px;
   background-color: #3a3539;
@@ -306,15 +306,17 @@ footer div h3 {
 footer div {
   color: #251f24;
   line-height: 44px;
-  margin: 0;
-  width: 372px;
+  margin: 0 auto;
+  width: 488px;
   height: 84px;
-  align-items: center;
+  text-align: center;
 }
 
 .socials {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 104px;
   height: 24px;
   margin: 0 auto;
