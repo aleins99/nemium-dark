@@ -1,0 +1,86 @@
+html {
+  font-size: initial;
+}
+body {
+  font-size: 17px;
+}
+.container {
+  padding: 40px;
+}
+.curso-info {
+  width: 10;
+  position: sticky;
+}
+
+img {
+  width: 100%;
+  height: 400px;
+  margin: 1rem;
+}
+
+.form-contact {
+  width: 100%;
+  height: 5vh;
+}
+.background-head {
+  width: 100%;
+  background-color: black;
+}
+.container {
+  width: 90%;
+  flex-direction: row;
+}
+
+.menu-content {
+  margin-top: 20px;
+  flex-basis: 30%;
+}
+
+.menu-content details:hover {
+  cursor: pointer;
+}
+.contenido {
+  flex-basis: 55%;
+}
+
+.html-code {
+  height: 350px;
+  padding: 40px;
+  padding-top: 20px;
+  width: 700px;
+}
+
+pre {
+  font-size: 16px;
+  width: 50%;
+}
+
+footer {
+  font-size: 32px;
+  height: 150px;
+}
+
+footer h3 {
+  font-size: 38px !important;
+}
+
+.contact {
+  height: 250px;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+}
+.social {
+  height: 80px;
+}
+
+.socials .icons {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.socials a:last-child {
+  margin-left: -23px;
+}

@@ -11,8 +11,86 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/desktop.css"
+      media="screen and (min-width: 500px)"
     />
   </head>
   <body>
@@ -29,7 +107,7 @@
             <li><a href="#github">Github</a></li>
           </ol>
         </details>
-        <details open>
+        <details>
           <summary>Conceptos Esenciales del Desarrollo Web</summary>
           <ol>
             <li><a href="#html">Que es Html</a></li>
@@ -58,7 +136,7 @@
         <div class="setup">
           <h2>Setup</h2>
           <div id="chrome">
-            <img src="assets/icons/chrome-icon.png" alt="" />
+            <img src="assets/icons/chrome-icon.png" alt="" class="icons" />
             <h3>1.Google Chrome</h3>
             <p>
               Chrome va a ser el navegador que utilizaremos en el curso por su
@@ -67,7 +145,7 @@
             </p>
           </div>
           <div id="vs-code">
-            <img src="./assets/icons/vs.code-icon.png" alt="" />
+            <img src="./assets/icons/vs.code-icon.png" alt="" class="icons" />
             <h3>2.Visual Studio Code</h3>
             <p>
               Visual Studio Code es el editor de texto más popular y potente del
@@ -77,7 +155,7 @@
             </p>
           </div>
           <div id="figma">
-            <img src="./assets/icons/figma-icon.png" alt="" />
+            <img src="./assets/icons/figma-icon.png" alt="" class="icons" />
             <h3>3.Figma</h3>
             <p>
               Figma es una la herramienta más popular en la actualidad para
@@ -87,7 +165,7 @@
             </p>
           </div>
           <div id="github">
-            <img src="./assets/icons/github-icon.png" alt="" />
+            <img src="./assets/icons/github-icon.png" alt="" class="icons" />
             <h3>4.Github</h3>
             <p>
               Así como en Facebook te encuentran tus amigos, en Github te
@@ -177,7 +255,7 @@ initial-scale=1.0&quot;&gt;
               Los atributos le dan características extra a las etiquetas para
               complementar información y son pre programadas por el navegador,
               algunos atributos funcionan en todas las etiquetas de la misma
-              forma como ‘class’ pero otros atributos funcionan en solo alguna
+              forma como class pero otros atributos funcionan en solo alguna
               etiquetas como src
             </p>
           </div>
@@ -277,23 +355,31 @@ initial-scale=1.0&quot;&gt;
           <h4>Suscríbete a nuestro newsletter</h4>
           <form action="contact" class="form-contact">
             <input type="text" placeholder="Nombre" />
-            <input type="text" placeholder="Correo electrónico" />
+            <input type="email" placeholder="Correo electrónico" />
             <button>Suscribirme</button>
           </form>
         </section>
       </div>
     </div>
+
     <footer>
       <div class="logo">
         <h3>© Alejandro Marin Developer</h3>
         <div class="socials">
-          <a href="https://www.instagram.com/" target="_blank">
-            <img src="./assets/icons/instagram.svg" alt="" />
+          <a
+            href="https://www.instagram.com/alejandromarin15/"
+            class="icons"
+            target="_blank"
+          >
+            <img src="./assets/icons/instagram.svg" alt="" class="icons" />
           </a>
-          <a href="https://www.facebook.com/" target="_blank">
-            <img src="./assets/icons/facebook.svg" alt="" /> </a
+          <a
+            href="https://www.facebook.com/alejandro.marin.50951"
+            target="_blank"
+          >
+            <img src="./assets/icons/facebook.svg" alt="" class="icons" /> </a
           ><a href="" target="_blank">
-            <img src="./assets/icons/twitter.svg" alt="" />
+            <img src="./assets/icons/twitter.svg" alt="" class="icons" />
           </a>
         </div>
       </div>
